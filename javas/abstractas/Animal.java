@@ -1,4 +1,4 @@
-package javas;
+package javas.abstractas;
 //1. clase abstracta
 public abstract class Animal {
 // 5 variables privadas

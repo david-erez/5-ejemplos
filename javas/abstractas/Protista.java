@@ -1,4 +1,7 @@
-package javas;
+package javas.abstractas;
+
+import javas.interfaces.Eat;
+
 //clase abstracta que implementa la interfaz comer
 public abstract class Protista implements Eat{
     public boolean isEucariota;

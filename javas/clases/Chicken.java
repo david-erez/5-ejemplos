@@ -1,4 +1,9 @@
-package javas;
+package javas.clases;
+
+import javas.abstractas.Animal;
+import javas.interfaces.Eat;
+import javas.interfaces.Fly;
+
 // clase normal que se extiende de la clase animal, e implementa la interfaz volar y comer.
 public class Chicken extends Animal implements Eat,Fly {
     public String name;
@@ -14,7 +19,7 @@ public class Chicken extends Animal implements Eat,Fly {
         this.quality = quality;
         this.comensurate = comensurate;
     }
-// aca sobreescribe los metodos de la clase padre 
+// aca sobrescribe los metodos de la clase padre 
     @Override
     public void reproduce() {
         System.out.println("the chicken reproduce whit chicken");        
@@ -40,12 +45,12 @@ public class Chicken extends Animal implements Eat,Fly {
     public void getVolume(String tipeSound) {
         System.out.println("the chicken ko-ko-ko-ko in type"+breed);
     }
-// aca sobreescrube los metodos de la interfaz volar
+// aca sobrescribe los metodos de la interfaz volar
     @Override
     public void volar() {
         System.out.println("chickens cannot fly");
     }
-//aca sobreescribe los metodos de la interfaz comer
+//aca sobrescribe los metodos de la interfaz comer
     @Override
     public void etating() {
         System.out.println("the chicken eat rize whit milk");

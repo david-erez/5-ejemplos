@@ -1,5 +1,7 @@
-package javas;
+package javas.clases;
 
+import javas.abstractas.Vegetable;
+import javas.interfaces.Cut;
 
 public class Carrot extends Vegetable implements Cut {
     private String namecarrot;
@@ -10,11 +12,11 @@ public class Carrot extends Vegetable implements Cut {
    //clase sin constructor
     
 
-   // aca sobreescribe los metodos de la interfaz cortar
+   // aca sobrescribe los metodos de la interfaz cortar
     @Override
     public void blade() {}
 
-    // aca sobreescribe los metodos de la clase abstracta vegetal
+    // aca sobrescribe los metodos de la clase abstracta vegetal
     @Override
     public void growth() {}
     
@@ -36,7 +38,7 @@ public class Carrot extends Vegetable implements Cut {
     @Override
     public void tiepPicmente(String tipeSound) {}
     
-    // aca se decllaran los getters y setters para poder acceder a los atributos de esta clase.
+    // aca se declaran los getters y setters para poder acceder a los atributos de esta clase.
     public String getNamecarrot() {
         return namecarrot;
     }

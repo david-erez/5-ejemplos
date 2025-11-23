@@ -1,4 +1,4 @@
-package javas;
+package javas.abstractas;
 
 public abstract class Monera {
     //5 variables con modificador de adceso protegido
@@ -9,7 +9,7 @@ public abstract class Monera {
     protected boolean haveWallCell;
 
     //constructor por defecto
-     Monera(){
+     protected Monera(){
         this.quantity = new int[]{1,2,3,4};
         this.isProcaryote = true;
         this.sizeMicrometers  = 4.2;

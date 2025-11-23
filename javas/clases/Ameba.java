@@ -1,40 +1,58 @@
-package javas;
-public class Ameba extends Protista implements Swin   {
+package javas.clases;
 
+import javas.abstractas.Protista;
+import javas.interfaces.Swin;
+
+public class Ameba extends Protista implements Swin   {
+    private String locomotionTipe;
+    private boolean modeAlimentation;
+    private boolean cyst;
+    private boolean isPathogenic;
+    private int vacuolas;
+
+    // aca se sobrescriben los metodos de la interfaz nadar
     @Override
     public void SwimDepp() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'SwimDepp'");
+        if (modeAlimentation) {
+            System.out.println("the ameba use tank oxigen");
+        }
+        System.out.println("the ameba swin in the ocean");
     }
 
+    //aca sobrescribe los metodos de la clase Protista 
     @Override
     protected void move() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'move'");
+        System.out.println("the ameba is moving");
     }
 
     @Override
     protected String reproduceAsexually() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'reproduceAsexually'");
+        if (cyst) {
+            return"the ameba is reproduce whit ameba";
+        }
+        else{
+            return "the ameba not reproduce";
+        }
     }
 
     @Override
     protected int nutrientsConsumedProtiste(int level) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'nutrientsConsumedProtiste'");
+        return level * vacuolas;
     }
 
     @Override
     protected double calculateVelocity(double velocity) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'calculateVelocity'");
+        if (haveCell) {
+            return velocity * 0.89;
+        }
+        else{
+            return 0;
+        }
     }
 
     @Override
     protected void getHabitat(String tipe) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getHabitat'");
+        System.out.println("the ameba has having a "+ locomotionTipe+" in  type habitad "+tipe);
     }
     
 }

@@ -1,7 +1,12 @@
 // ...existing code...
-package javas;
+package javas.clases;
+
+import javas.abstractas.Monera;
+import javas.interfaces.Eat;
+import javas.interfaces.Swin;
+
 // clase que implementa la interfaz comer y nadar, como tambie hereda de la clase protista
-class Sperilos extends Monera implements Eat,Swin {
+public class Sperilos extends Monera implements Eat,Swin {
     boolean haveFlagelos;
 
     // constructor parametizado

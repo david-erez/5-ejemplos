@@ -1,4 +1,4 @@
-package javas;
+package javas.abstractas;
 // clase abstracta vegetal
 public abstract class Vegetable {
     public int size;
