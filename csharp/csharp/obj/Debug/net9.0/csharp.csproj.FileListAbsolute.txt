@@ -1,0 +1,15 @@
+/home/nox/Documentos/5-ejemplos/csharp/csharp/bin/Debug/net9.0/csharp
+/home/nox/Documentos/5-ejemplos/csharp/csharp/bin/Debug/net9.0/csharp.deps.json
+/home/nox/Documentos/5-ejemplos/csharp/csharp/bin/Debug/net9.0/csharp.runtimeconfig.json
+/home/nox/Documentos/5-ejemplos/csharp/csharp/bin/Debug/net9.0/csharp.dll
+/home/nox/Documentos/5-ejemplos/csharp/csharp/bin/Debug/net9.0/csharp.pdb
+/home/nox/Documentos/5-ejemplos/csharp/csharp/obj/Debug/net9.0/csharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/nox/Documentos/5-ejemplos/csharp/csharp/obj/Debug/net9.0/csharp.AssemblyInfoInputs.cache
+/home/nox/Documentos/5-ejemplos/csharp/csharp/obj/Debug/net9.0/csharp.AssemblyInfo.cs
+/home/nox/Documentos/5-ejemplos/csharp/csharp/obj/Debug/net9.0/csharp.csproj.CoreCompileInputs.cache
+/home/nox/Documentos/5-ejemplos/csharp/csharp/obj/Debug/net9.0/csharp.sourcelink.json
+/home/nox/Documentos/5-ejemplos/csharp/csharp/obj/Debug/net9.0/csharp.dll
+/home/nox/Documentos/5-ejemplos/csharp/csharp/obj/Debug/net9.0/refint/csharp.dll
+/home/nox/Documentos/5-ejemplos/csharp/csharp/obj/Debug/net9.0/csharp.pdb
+/home/nox/Documentos/5-ejemplos/csharp/csharp/obj/Debug/net9.0/csharp.genruntimeconfig.cache
+/home/nox/Documentos/5-ejemplos/csharp/csharp/obj/Debug/net9.0/ref/csharp.dll

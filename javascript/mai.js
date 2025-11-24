@@ -7,7 +7,7 @@ const necromancer = new Necromancer('dark arts', 'summoning', 'skeleton', 100, '
 
 console.log("-----------------------------------");
 // Builder methods
-builder.buldingEpic();
+builder.buldingEpic();  
 builder.buidWall('brick', 10);
 builder.buildCastle();
 builder.buildTrap();
