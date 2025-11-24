@@ -17,7 +17,7 @@ class Musician {
     this.#instrument="flute";
     this.#levelVirtuosity=1500;
     this.#perfectionRhythmic = 1500
-    this.#genreMusic= classic;
+    this.#genreMusic= "classic";
 //simulacion de implementacion de interfaz Amause
     if(typeof this.haveEpicFun !== "function"){
         throw new Error (" goAwayEpic not implemented method")

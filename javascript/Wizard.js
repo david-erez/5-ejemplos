@@ -39,19 +39,19 @@ attackMasive(){
 }
 //simulacion de metodos abstractos para la futura implementacion en clases hijas.
 catSpeell(dificult){
-        throw new Error ("mainTrick armor not implemented method")
+        throw new Error ("cadSpeel armor not implemented method")
 }
 laborStart(){
-        throw new Error ("shufleCards not implemented method")
+        throw new Error ("laborStart not implemented method")
 }
 heIsSick(){
-        throw new Error ("finnalAct not implemented method")
+        throw new Error ("heIsSick not implemented method")
 }
 destroyCastles(){
-        throw new Error ("isDead not implemented method")
+        throw new Error ("destroy astles not implemented method")
 }
 damageMaind(){
-        throw new Error ("useRevolver not implemented method")
+        throw new Error ("damageMaind not implemented method")
 }
 
 }
