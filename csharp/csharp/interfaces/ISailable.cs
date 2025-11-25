@@ -1,0 +1,4 @@
+interface ISailable
+{
+    int numberContainers();
+}

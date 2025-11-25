@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("-----------------info canoe-----------------");
+Canoe.ShowCanoeInfo();
+Console.WriteLine("-----------------info car-----------------");
+Car.ShowCarInfo();
+Console.WriteLine("-----------------info drone-----------------");
+Drone.ShowDroneInfo();
+Console.WriteLine("-----------------info helicopter-----------------");
+Helicopter.ShowHelicopterInfo();
+Console.WriteLine("-----------------info yacht-----------------");
+Yacht.ShowYachtInfo();

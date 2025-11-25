@@ -1,0 +1,4 @@
+interface ITransportGoods
+{
+    int loadCapacity();
+}

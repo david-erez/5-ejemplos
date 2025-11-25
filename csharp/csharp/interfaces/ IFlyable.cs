@@ -1,0 +1,4 @@
+interface  IFlyable
+{
+    bool isFlying();
+}
